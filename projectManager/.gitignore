@@ -3,8 +3,8 @@
 *.class
 webapp/WEB-INF/classes/*
 webapp/WEB-INF/*
-target/*
+*/target/*
 */build/*
 .sonar/*
-/target/*
+*/target/**
 
