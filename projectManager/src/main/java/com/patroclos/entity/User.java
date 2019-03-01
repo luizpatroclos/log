@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name = "users", schema = "luiz")
+@Table(name = "users")
 public class User {
 	
 	
@@ -20,9 +20,16 @@ public class User {
 	private String userName;
 	private String firstName;
 	private String lastName;
+	private String age;
 	
 	
 	
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
 	public long getId() {
 		return id;
 	}
